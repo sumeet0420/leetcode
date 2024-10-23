@@ -1,5 +1,8 @@
 package com.learning.hashtable;
 
+import java.util.*;
+import java.util.stream.Collectors;
+
 public class LeetCode2405_OptimalPatitionOfString {
 
     public int partitionString(String s) {
@@ -14,4 +17,5 @@ public class LeetCode2405_OptimalPatitionOfString {
         }
         return count;
     }
+
 }
