@@ -8,9 +8,8 @@ public class LeetCode1170_CompareStringsByFreqOfSmallestCharacter {
         for(String query:queries){
             int count = 0;
             int freqCompare = smallestLexicoFreqquency(query);
-            for(String word:words){
+            for(String word:words)
                 if(freqCompare<smallestLexicoFreqquency(word)) count++;
-            }
             res[i++] = count;
         }
         return res;
